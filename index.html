@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RAON | Premium Earbuds</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pretendard:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html">RAON</a>
+    <nav class="topnav">
+      <a href="#hero">메인 메시지</a>
+      <a href="#signature">시그니처</a>
+      <a href="#colors">컬러</a>
+      <a href="#cases">케이스</a>
+      <a href="#product-info">제품 정보</a>
+      <a href="#customer">고객센터</a>
+      <a href="company.html">회사 소개</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="hero__copy reveal">
+        <p class="eyebrow">PREMIUM TRUE WIRELESS EARBUDS</p>
+        <h1>RAON</h1>
+        <p class="hero__sub">Sound, Designed for You</p>
+        <h2>귀에 맞춘 설계<br>감각으로 듣는 사운드</h2>
+        <p class="hero__lead">
+          일상 속 가장 자연스럽게 스며드는 이어폰.<br>
+          편안한 착용감과 감각적인 컬러, 안정적인 수납 구조를 하나에 담았습니다.
+        </p>
+        <div class="hero__chips">
+          <span>인체공학적 구조</span>
+          <span>프리미엄 메탈 포인트</span>
+          <span>4가지 컬러 라인업</span>
+        </div>
+      </div>
+
+      <div class="hero__visual reveal">
+        <div class="hero-stage tilt-card" data-tilt>
+          <img src="assets/white_case.png" alt="화이트 케이스" class="hero-stage__case hero-stage__case--left">
+          <img src="assets/pink_case.png" alt="빕분홍 케이스" class="hero-stage__case hero-stage__case--center">
+          <img src="assets/sky_case.png" alt="스카이블루 케이스" class="hero-stage__case hero-stage__case--right">
+        </div>
+      </div>
+    </section>
+
+    <section class="signature section" id="signature">
+      <div class="signature__panel reveal">
+        <div class="signature__text">
+          <p class="eyebrow">SIGNATURE PRODUCT</p>
+          <h3>미니멀하지만<br>존재감 있게</h3>
+          <p>
+            군더더기 없는 형태에 메탈 포인트를 더해
+            차분하면서도 선명한 인상을 완성했습니다.
+          </p>
+        </div>
+        <div class="signature__visual floating">
+          <img src="assets/black_earbud.png" alt="RAON 블랙 이어폰">
+        </div>
+      </div>
+    </section>
+
+    <section class="details section" id="design">
+      <div class="section-title reveal">
+        <p>DESIGN DETAIL</p>
+        <h3>정제된 디테일, 부드러운 곡선</h3>
+      </div>
+      <div class="detail-grid">
+        <article class="detail-card reveal">
+          <div class="detail-card__image"><img src="assets/white_earbud.png" alt="화이트 이어폰"></div>
+          <h4>Premium Detail</h4>
+          <p>부드러운 곡선과 메탈 라인이 조화를 이루며 정제된 인상을 만듭니다.</p>
+        </article>
+        <article class="detail-card reveal">
+          <div class="detail-card__image"><img src="assets/pink_earbud.png" alt="빕분홍 이어폰"></div>
+          <h4>Balanced Mood</h4>
+          <p>빛에 따라 은은하게 달라지는 표면감이 프리미엄 무드를 강조합니다.</p>
+        </article>
+        <article class="detail-card reveal">
+          <div class="detail-card__image"><img src="assets/sky_earbud.png" alt="스카이블루 이어폰"></div>
+          <h4>Comfort Fit</h4>
+          <p>귀에 자연스럽게 스며드는 형태로 오래 사용해도 편안한 인상을 전합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="colors section" id="colors">
+      <div class="section-title reveal">
+        <p>COLOR LINEUP</p>
+        <h3>한눈에 보는 RAON 컬러</h3>
+      </div>
+
+      <div class="color-showcase reveal">
+        <div class="color-tabs">
+          <button class="color-tab is-active" data-color="white">WHITE</button>
+          <button class="color-tab" data-color="pink">VIP PINK</button>
+          <button class="color-tab" data-color="sky">SKY BLUE</button>
+          <button class="color-tab" data-color="black">BLACK</button>
+        </div>
+
+        <div class="color-stage tilt-card" data-tilt>
+          <img src="assets/white_earbud.png" alt="컬러 이어폰" class="color-stage__earbud" id="colorEarbud">
+          <img src="assets/white_case.png" alt="컬러 케이스" class="color-stage__case" id="colorCase">
+        </div>
+
+        <div class="color-meta">
+          <h4 id="colorName">WHITE</h4>
+          <p id="colorDesc">깨끗하고 클래식한 프리미엄 화이트</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cases section section--dark" id="cases">
+      <div class="section-title section-title--light reveal">
+        <p>CASE COLLECTION</p>
+        <h3>수납 구조까지 정제된 디자인</h3>
+      </div>
+      <div class="case-grid">
+        <article class="case-card reveal"><img src="assets/white_case.png" alt="화이트 케이스"><h4>WHITE CASE</h4></article>
+        <article class="case-card reveal"><img src="assets/pink_case.png" alt="빕분홍 케이스"><h4>VIP PINK CASE</h4></article>
+        <article class="case-card reveal"><img src="assets/sky_case.png" alt="스카이블루 케이스"><h4>SKY BLUE CASE</h4></article>
+        <article class="case-card reveal"><img src="assets/black_case.png" alt="블랙 케이스"><h4>BLACK CASE</h4></article>
+      </div>
+    </section>
+
+    <section class="info section" id="product-info">
+      <div class="section-title reveal">
+        <p>PRODUCT INFO</p>
+        <h3>제품 정보</h3>
+      </div>
+      <div class="info-panel reveal">
+        <div class="info-row"><span>제품명</span><strong>RAON True Wireless Earbuds</strong></div>
+        <div class="info-row"><span>컬러</span><strong>White / VIP Pink / Sky Blue / Black</strong></div>
+        <div class="info-row"><span>구성</span><strong>이어폰 + 충전 케이스</strong></div>
+        <div class="info-row"><span>디자인 포인트</span><strong>인체공학적 구조, 메탈 포인트 마감</strong></div>
+        <div class="info-row"><span>권장 사용</span><strong>데일리 음악 감상 / 통화 / 이동 중 사용</strong></div>
+      </div>
+    </section>
+
+    <section class="customer section" id="customer">
+      <div class="section-title reveal">
+        <p>INSTAGRAM DM</p>
+        <h3>인스타그램 DM 안내</h3>
+      </div>
+      <div class="customer-panel reveal">
+        <div>
+          <h4>상담은 인스타그램 DM으로 진행됩니다</h4>
+          <p>운영시간 10:00 ~ 18:30</p>
+        </div>
+        <a class="instagram-inline" href="https://www.instagram.com/" target="_blank" rel="noopener">인스타그램 DM 문의하기</a>
+      </div>
+    </section>
+  </main>
+
+  <a class="instagram-fab" href="https://www.instagram.com/" target="_blank" rel="noopener">
+    <span class="instagram-fab__icon">◎</span>
+    <span class="instagram-fab__text">
+      <strong>인스타그램 DM</strong>
+      <small>DM으로 빠르게 문의하기</small>
+    </span>
+  </a>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <p>회사명 RAON</p>
+      <p>사업자번호 0805262713</p>
+      <p>회사주소 4040 N MACARTHUR BLVD STE E100, IRVING, TX, 7503</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
