@@ -492,3 +492,108 @@ a {
     bottom: 16px;
   }
 }
+
+
+/* ===== FINAL MOBILE FIX (HERO + LINEUP) ===== */
+@media (max-width:720px){
+
+  body{
+    line-height:1.65;
+  }
+
+  /* ----- HERO FIX ----- */
+  .hero{
+    gap:40px;
+    padding-top:40px;
+  }
+
+  .hero-copy h1{
+    font-size:2.2rem;
+    line-height:1.2;
+    letter-spacing:-0.02em;
+  }
+
+  .hero-text{
+    font-size:1rem;
+  }
+
+  .hero-visual{
+    position: relative;
+    min-height: 260px;
+  }
+
+  .hero-case{
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+  }
+
+  .hero-bud{
+    position: absolute;
+    right: 8%;
+    bottom: -5%;
+    width: 32%;
+  }
+
+  /* ----- LINEUP FIX ----- */
+  .lineup-visual{
+    position: relative;
+    min-height: 260px;
+  }
+
+  .case-img{
+    position: relative;
+    width: 85%;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+  }
+
+  .bud-img{
+    position: absolute;
+    right: 8%;
+    bottom: -5%;
+    width: 30%;
+  }
+
+  /* ----- SPACING / TYPOGRAPHY ----- */
+  .section-head{
+    margin-bottom:28px;
+  }
+
+  .section-head h2{
+    font-size:1.7rem;
+    line-height:1.3;
+  }
+
+  .story-card,
+  .info-block,
+  .performance-item,
+  .scenario-item{
+    padding:22px;
+  }
+
+  .lineup-row{
+    padding:40px 0;
+    gap:20px;
+  }
+
+  .lineup-copy h3{
+    font-size:1.5rem;
+  }
+
+  .performance-grid{
+    gap:14px;
+  }
+
+  .scenario-grid{
+    gap:12px;
+  }
+
+  .signature-card img{
+    height:200px;
+  }
+
+}
