@@ -594,6 +594,12 @@ a {
 
   .signature-card img{
     height:200px;
+    
+  }
+    .site-footer p{
+    font-size: 0.82rem;
+    line-height: 1.6;
+    word-break: keep-all;
   }
 
 }
